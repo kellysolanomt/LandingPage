@@ -175,7 +175,7 @@ body {
 
 .features {
     width: 100%;
-    height: 135vh;
+    height: 140vh;
     background-color: rgb(255, 255, 255);
     padding-top: 5vh;
 }
@@ -205,6 +205,7 @@ body {
     word-wrap: break-word;
     font-family: 'Graphik Web', sans-serif;
     font-weight: 400;
+    word-wrap: break-word;
 }
 
 .features-chars {
@@ -382,3 +383,45 @@ html .vjs-theme-forest .vjs-big-play-button:focus, html
     letter-spacing: 0.20px;
     word-wrap: break-word;
 }
+
+
+.contactus{
+    width: 100%;
+    height: 80vh;
+}
+
+.contactus-container{
+    width: 100%;
+    height: 100%;
+    padding-top: 1rem;
+}
+
+.contactus-container-title{
+    width: 100%;
+    height: 20vh;
+    justify-items: center;
+}
+
+.contactus-container-title-h2{
+    text-align: center;
+    color:#252B42;
+    font-size: 40px;
+    font-family: 'Graphik Web', sans-serif;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0.20px;
+    word-wrap: break-word;
+}
+
+.contactus-container-title-p{
+    text-align: center;
+    color:#374754;
+    font-size: 22px;
+    line-height: 35px;
+    letter-spacing: 0.20px;
+    word-wrap: break-word;
+    font-family: 'Graphik Web', sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
