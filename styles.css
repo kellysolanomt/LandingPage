@@ -154,4 +154,10 @@ body{
     font-weight: 400;
     border-radius: 35px;
     margin-top: 4vh;
+    transition: transform 0.5s ease;
+}
+
+.home-cover-content-button:hover{
+    background-color: #1972c4;
+    transform: translateY(-5px);
 }
