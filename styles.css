@@ -241,7 +241,12 @@ body{
     width: 100%;
     height: 100%;
     border-radius: 44.81px;
-   object-fit: cover;
+    object-fit: cover;
+}
+
+.video-js .vjs-tech{
+    border-radius: 44.81px;
+    object-fit: cover;
 }
 
 

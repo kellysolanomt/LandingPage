@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="./styles.css">
     <link rel="icon" type="image/x-icon" href="./images/figmalogo.svg">
+    <link href="https://vjs.zencdn.net/8.12.0/video-js.css" rel="stylesheet" />
     <title>FigmaLab</title>
 </head>
 
@@ -37,7 +38,7 @@
             <div class="home-cover">
                 <div class="home-cover-content">
                     <h1 class="home-cover-content-h1">The best products <br />start with Figma</h1>
-                    <p class="home-cover-content-p">Most calendars are designed for teams.Slate is designed<br />for
+                    <p class="home-cover-content-p">Most calendars are designed for teams. Slate is designed<br />for
                         freelancers</p>
                     <button class="home-cover-content-button">Try For Free</button>
                 </div>
@@ -90,9 +91,12 @@
 
         </div>
         <div class="features-video">
-            <video class="video-home" controls muted>
+            <video class="video-home video-js" data-setup="{}" controls autoplay muted>
                 <source class="video-home-media" src="./videos/video1.mp4" type="video/mp4"/>
             </video>
+
+            <script src="https://vjs.zencdn.net/8.12.0/video.min.js"></script>
+
         </div>
     </section>
     <section class="contactus">
