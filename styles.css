@@ -674,8 +674,79 @@ html .vjs-theme-forest .vjs-big-play-button:focus, html
 
 .footer{
     width: 100%;
-    height: 50vh;
-    background-color: #2091F9;
+    height: 560px;
+    background-color: #252B42;
 }
 
+.footer-content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
+.footer-content-nav{
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 0.6fr 1.6fr; 
+    gap: 0px 0px;
+    width: 40%;
+    height: 40%;
+    margin-left: 6rem;
+}
+
+.footer-content-nav-1 { grid-area: 1 / 1 / 3; }
+.footer-content-nav-2 { grid-area: 1 / 2 / 3; }
+.footer-content-nav-3 { grid-area: 1 / 3 / 3; }
+.footer-content-nav-1-pagest { grid-area: 1 / 1 / 2; }
+.footer-content-nav-1-pagesc { 
+    grid-area: 2 / 1 / 3; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.footer-content-nav-2-tomothyt { grid-area: 1 / 2 / 2; }
+.footer-content-nav-2-tomothyc { 
+    grid-area: 2 / 2 / 3; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-content-nav-3-janet { grid-area: 1 / 3 / 2; }
+.footer-content-nav-3-janec { 
+    grid-area: 2 / 3 / 3; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-content-nav-pages-p{
+    margin: 0;
+    color: white; 
+    font-size: 15px; 
+    font-family: 'Graphik Web'; 
+    font-weight: 400; 
+    line-height: 28px; 
+    letter-spacing: 0.20px; 
+    word-wrap: break-word
+}
+
+.footer-content-nav-pages-h3{
+    color: white; 
+    font-size: 20px; 
+    font-family: 'Graphik Web'; 
+    font-weight: 700; 
+    line-height: 28px; 
+    letter-spacing: 0.10px; 
+    word-wrap: break-word;
+}
+
+.footer-content-icons{
+    height: 40%;
+    width: 20%;
+    margin-right: 6rem;
+}
