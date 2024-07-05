@@ -197,15 +197,9 @@ body {
     }
 }
 
-@media only screen and (min-width: 600px) and (max-width: 767px){
-    .home-navbar-hyperlinks {
-        display: flex;
-        align-items: center;
-        margin-left: 7vw;
-    }
-    .home-navbar-icons {
-        margin-right: 7vw;
-    }
+@media only screen and (max-width: 767px){
+    
+    
 }
 
 
@@ -500,6 +494,9 @@ html .vjs-theme-forest .vjs-big-play-button:focus, html
     }
 }
 
+@media only screen and (min-width: 600px) and (max-width: 767px){
+
+}
 
 /* Configuraciones para la sección de contact us */
 
@@ -939,6 +936,9 @@ html .vjs-theme-forest .vjs-big-play-button:focus, html
     }
 }
 
+@media only screen and (min-width: 600px) and (max-width: 767px){
+
+}
 
 
 /* Configuraciones para la sección del footer */
@@ -1129,4 +1129,7 @@ html .vjs-theme-forest .vjs-big-play-button:focus, html
     
 }
 
+@media only screen and (min-width: 600px) and (max-width: 767px){
+
+}
 
