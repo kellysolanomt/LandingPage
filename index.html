@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles.css">
     <link rel="icon" type="image/x-icon" href="./images/figmalogo.svg">
     <link href="https://vjs.zencdn.net/8.12.0/video-js.css" rel="stylesheet" />
@@ -13,13 +14,15 @@
 <body>
     <section class="home">
         <div class="home-bgimage">
-            <div class="home-navbar">
+            <nav class="home-navbar">
                 <div class="home-navbar-hyperlinks">
-                    <p class="home-navbar-links"><a href="./hola.html">Home</a></p>
-                    <p class="home-navbar-links"><a href="./">Product</a></p>
-                    <p class="home-navbar-links"><a href="./">Pricing</a></p>
-                    <p class="home-navbar-links"><a href="./">About</a></p>
-                    <p class="home-navbar-links"><a href="./">Contact</a></p>
+                    <div class="home-navbar-hyperlinks-p">
+                        <p class="home-navbar-links"><a href="./hola.html">Home</a></p>
+                        <p class="home-navbar-links"><a href="./">Product</a></p>
+                        <p class="home-navbar-links"><a href="./">Pricing</a></p>
+                        <p class="home-navbar-links"><a href="./">About</a></p>
+                        <p class="home-navbar-links"><a href="./">Contact</a></p>
+                    </div>
                     <a href="./home.html">
                         <div class="home-navbar-logo" alt="FigmaLand logo"></div>
                     </a>
@@ -35,7 +38,31 @@
                         <div class="home-navbar-LIicon" alt="Linkedin logo"></div>
                     </a>
                 </div>
-            </div>
+                <div class="home-navbar-burgermenu"></div>
+                <div class="home-navbar-burgermenu-menu">
+                    <div class="home-navbar-burgermenu-menu-p">
+                        <p class="home-navbar-links"><a href="./hola.html">Home</a></p>
+                        <p class="home-navbar-links"><a href="./">Product</a></p>
+                        <p class="home-navbar-links"><a href="./">Pricing</a></p>
+                        <p class="home-navbar-links"><a href="./">About</a></p>
+                        <p class="home-navbar-links"><a href="./">Contact</a></p>
+                    </div>
+                    <div class="home-navbar-burgermenu-menu-icons">
+                        <a href="https://twitter.com/?lang=es">
+                            <div class="home-navbar-Xicon" alt="X logo"></div>
+                        </a>
+                        <a href="https://www.facebook.com/">
+                            <div class="home-navbar-FBicon" alt="Facebook logo"></div>
+                        </a>
+                        <a href="https://www.linkedin.com/">
+                            <div class="home-navbar-LIicon" alt="Linkedin logo"></div>
+                        </a>
+                    </div>
+                    <div class="home-navbar-closemenu"></div>
+                </div>
+                
+                
+            </nav>
             <div class="home-cover">
                 <div class="home-cover-content">
                     <h1 class="home-cover-content-h1">The best products <br />start with Figma</h1>
