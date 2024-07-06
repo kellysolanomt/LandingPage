@@ -466,6 +466,63 @@ body {
     }
 }
 
+@media only screen and (max-width: 360px) and (max-height:800px) {
+    .home-navbar {
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        box-sizing: border-box;
+        z-index: 10;
+        position: relative;
+    }
+
+    .home-navbar-logo {
+        width: 210px;
+        height: 42px;
+        background-image: url('./images/figmalandlogo.svg');
+        background-size: cover;
+        background-position: center;
+    }
+    
+
+    .home-cover-content {
+        margin-left: 5vw;
+        margin-right: 5vw;
+        box-sizing: border-box;
+    }
+    .home-cover-content-h1{
+        font-size: 2.5rem;
+        line-height: 3rem;
+        letter-spacing: 0.15px;
+    }
+
+    .home-cover-content-p{
+        font-size: 1.1rem;
+    }
+
+    .home-navbar-burgermenu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        background-image: url('./images/burger-w.svg');
+        background-position: center;
+        background-size: cover;
+        margin-right: 7vw;
+        box-sizing: border-box;
+    }
+
+    .home-cover-content-button {
+        height: 8vh;
+        width: 60vw;
+        font-size: 1rem;
+        margin-top: 2vh;
+    }
+}
+
 /* Configuración para sección de features */
 
 .features-title {
@@ -493,7 +550,6 @@ body {
     word-wrap: break-word;
     font-family: 'Graphik Web', sans-serif;
     font-weight: 400;
-    word-wrap: break-word;
 }
 
 .video-home {
@@ -926,6 +982,56 @@ html .vjs-theme-forest .vjs-big-play-button:focus, html
     }
 }
 
+@media only screen and (max-width: 360px) and (max-height:800px){
+
+    .features {
+        height: 190vh;
+    }
+
+    .features-title-h2 {
+        font-size: 2rem;
+        line-height: 1rem;
+    }
+    
+    .features-title-p {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
+
+    .features-chars-title-h2 {
+        font-size: 1.2rem;
+        line-height: 1.2rem;
+    }
+    
+    .features-chars-desc-p {
+        font-size: 1rem;
+        line-height: 1.2rem;
+    }
+
+    .features-chars-1-desc, .features-chars-2-desc, .features-chars-3-desc{
+        margin-bottom: 1rem;
+    }
+
+    .features-grid {
+        height: 40vh;
+      }
+
+    .features-video {
+        width: 90%;
+        height: 30vh;
+        min-height: 200px;
+        margin-bottom: 5vh;
+        margin-top: 5vh;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 17px 18px 101px -13px rgba(0, 0, 0, 0.62);
+        border-radius: 30px;
+        box-sizing: border-box;
+    }
+    .video-js .vjs-tech {
+        border-radius: 30px;
+    }
+}
 
 /* Configuraciones para la sección de contact us */
 
@@ -1687,6 +1793,45 @@ html .vjs-theme-forest .vjs-big-play-button:focus, html
 
     .contactus-container-content-infomap-grid-p{
         font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 360px) and (max-height:800px){
+    .contactus{
+        height: 260vh;
+    }
+
+    .contactus-container-title-h2{
+        font-size: 2rem;
+        line-height: 1rem;
+    }
+    
+    .contactus-container-title-p{
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
+
+
+    .contactus-container-content{
+        height: 210vh;
+        margin-bottom: 2vh;
+        box-sizing: border-box;
+    }
+
+    .contactus-container-content-card{
+        width: 250px;
+        height: 750px;
+        display: flex;
+    }
+
+    .contactus-container-content-card-form-f input{
+        width: 220px;
+        height: 30px;
+    }
+
+    .contactus-container-content-card-form-f textarea{
+        height: 140px;
+        width: 220px;
     }
 }
 
