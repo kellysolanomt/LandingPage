@@ -1,3 +1,11 @@
+/*
+    Autor: Kelly Johana Solano C.
+    Fecha: 06 de Julio de 2024.
+    Descripción: Archivo de JS que contiene funciones utilizadas para interactividad de la Landing Page.
+*/
+
+// Funcionalidad de menú desplegable
+
 document.addEventListener('DOMContentLoaded', function() {
     const burgerMenu = document.querySelector('.home-navbar-burgermenu');
     const closeMenu = document.querySelector('.home-navbar-closemenu');

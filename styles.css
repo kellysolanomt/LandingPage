@@ -1,3 +1,9 @@
+/*
+    Autor: Kelly Johana Solano C.
+    Fecha: 06 de Julio de 2024.
+    Descripción: Archivo de CSS que contiene los estilos para la Landing Page.
+*/
+
 /* Configuración general del body */
 
 body {
@@ -6,7 +12,6 @@ body {
     /* overflow-x: hidden; */
     box-sizing: border-box;
 }
-
 
 @font-face {
     font-family: 'Graphik Web';
