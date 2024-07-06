@@ -3,7 +3,10 @@
 body {
     margin: 0px;
     padding: 0px;
+    /* overflow-x: hidden; */
+    box-sizing: border-box;
 }
+
 
 @font-face {
     font-family: 'Graphik Web';
@@ -27,13 +30,14 @@ body {
 
 .home {
     width: 100vw;
+    max-width: 100%;
     height: 100vh;
     background-color: rgb(255, 255, 255);
     box-sizing: border-box;
 }
 
 .home-bgimage {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     background-image: url('./images/background.svg');
     background-size: cover;
@@ -44,7 +48,7 @@ body {
 }
 
 .home-navbar {
-    width: 100vw;
+    width: 100%;
     height: 15vh;
     display: flex;
     align-items: center;
@@ -71,7 +75,7 @@ body {
     justify-content: center;
     align-items: center;
     transform: translateY(-15%);
-    position: rel;
+    /* position: relative; */
     z-index: 8;
     box-sizing: border-box;
 }
@@ -250,7 +254,7 @@ body {
 
 @media only screen and (min-width: 600px) and (max-width: 767px){
     .home-navbar {
-        width: 100vw;
+        width: 100%;
         height: 13vh;
         display: flex;
         align-items: center;
@@ -314,6 +318,7 @@ body {
         align-items: center;
         flex-direction: column;
         transition: top 1s ease 0s;
+        box-sizing: border-box;
     }
 
     .home-navbar-burgermenu-menu-p{
@@ -357,7 +362,7 @@ body {
 
 @media only screen and (max-width: 599px) {
     .home-navbar {
-        width: 100vw;
+        width: 100%;
         height: 13vh;
         display: flex;
         align-items: center;
@@ -636,7 +641,8 @@ html .vjs-theme-forest .vjs-big-play-button:focus, html
 
 @media only screen and (min-width: 1200px) {
     .features {
-        width: 100%;
+        width: 100vw;
+        max-width: 100%;
         height: 140vh;
         background-color: rgb(255, 255, 255);
         padding-top: 5vh;
@@ -667,7 +673,7 @@ html .vjs-theme-forest .vjs-big-play-button:focus, html
     
     .features-video {
         display: flex;
-        width: 60vw;
+        width: 60%;
         height: 50vh;
         margin-bottom: 5vh;
         margin-left: auto;
@@ -681,7 +687,8 @@ html .vjs-theme-forest .vjs-big-play-button:focus, html
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
 
     .features {
-        width: 100%;
+        width: 100vw;
+        max-width: 100%;
         height: 115vh;
         background-color: rgb(255, 255, 255);
         padding-top: 5vh;
@@ -716,7 +723,7 @@ html .vjs-theme-forest .vjs-big-play-button:focus, html
     
     
     .features-video {
-        width: 80vw;
+        width: 80%;
         height: 47.7vh;
         margin-bottom: 5vh;
         margin-left: auto;
@@ -730,7 +737,8 @@ html .vjs-theme-forest .vjs-big-play-button:focus, html
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 
     .features {
-        width: 100%;
+        width: 100vw;
+        max-width: 100%;
         height: 115vh;
         background-color: rgb(255, 255, 255);
         padding-top: 5vh;
@@ -760,7 +768,7 @@ html .vjs-theme-forest .vjs-big-play-button:focus, html
     
     
     .features-video {
-        width: 80vw;
+        width: 80%;
         height: 45vh;
         margin-bottom: 5vh;
         margin-left: auto;
@@ -773,7 +781,8 @@ html .vjs-theme-forest .vjs-big-play-button:focus, html
 
 @media only screen and (min-width: 600px) and (max-width: 767px){
     .features {
-        width: 100%;
+        width: 100vw;
+        max-width: 100%;
         height: 180vh;
         background-color: rgb(255, 255, 255);
         padding-top: 5vh;
@@ -827,7 +836,7 @@ html .vjs-theme-forest .vjs-big-play-button:focus, html
     }
 
     .features-video {
-        width: 90vw;
+        width: 90%;
         height: 40vh;
         margin-bottom: 5vh;
         margin-left: auto;
@@ -841,7 +850,8 @@ html .vjs-theme-forest .vjs-big-play-button:focus, html
     
 @media only screen and (max-width: 599px){
     .features {
-        width: 100%;
+        width: 100vw;
+        max-width: 100%;
         height: 170vh;
         background-color: rgb(255, 255, 255);
         padding-top: 5vh;
@@ -902,7 +912,7 @@ html .vjs-theme-forest .vjs-big-play-button:focus, html
     }
 
     .features-video {
-        width: 90vw;
+        width: 90%;
         height: 20vh;
         margin-bottom: 5vh;
         margin-left: auto;
@@ -1132,7 +1142,8 @@ html .vjs-theme-forest .vjs-big-play-button:focus, html
 
 @media only screen and (min-width: 1400px) {
     .contactus{
-        width: 100%;
+        width: 100vw;
+        max-width: 100%;
         height: 120vh;
     }
 
@@ -1212,7 +1223,8 @@ html .vjs-theme-forest .vjs-big-play-button:focus, html
 
 @media only screen and (min-width: 992px) and (max-width: 1399px) {
     .contactus{
-        width: 100%;
+        width: 100vw;
+        max-width: 100%;
         height: 160vh;
     }
 
@@ -1291,7 +1303,8 @@ html .vjs-theme-forest .vjs-big-play-button:focus, html
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .contactus{
-        width: 100%;
+        width: 100vw;
+        max-width: 100%;
         height: 160vh;
     }
 
@@ -1368,7 +1381,8 @@ html .vjs-theme-forest .vjs-big-play-button:focus, html
 
 @media only screen and (min-width: 600px) and (max-width: 767px){
     .contactus{
-        width: 100%;
+        width: 100vw;
+        max-width: 100%;
         height: 170vh;
     }
 
@@ -1509,6 +1523,7 @@ html .vjs-theme-forest .vjs-big-play-button:focus, html
 @media only screen and (max-width: 599px){
     .contactus{
         width: 100vw;
+        max-width: 100%;
         height: 180vh;
     }
 
@@ -1659,7 +1674,8 @@ html .vjs-theme-forest .vjs-big-play-button:focus, html
 /* Configuraciones para la sección del footer */
 
 .footer{
-    width: 100%;
+    width: 100vw;
+    max-width: 100%;
     height: 560px;
     background-color: #252B42;
 }

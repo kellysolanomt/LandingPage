@@ -21,3 +21,11 @@ document.addEventListener('DOMContentLoaded', function() {
         console.log('Alguno de los elementos no se encontró');
     }
 });
+
+document.querySelectorAll('*').forEach(el => {
+    if (el.offsetWidth > document.documentElement.clientWidth) {
+      console.log('Elemento desbordado:', el);
+    }else{
+        console.log('Nada se desborda')
+    }
+  });
