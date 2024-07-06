@@ -523,6 +523,75 @@ body {
     }
 }
 
+@media only screen and (max-height:780px){
+    .home-navbar {
+        width: 100%;
+        height: 15vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        box-sizing: border-box;
+        z-index: 10;
+        position: relative;
+    }
+    .home-navbar-logo {
+        width: 210px;
+        height: 42px;
+        background-image: url('./images/figmalandlogo.svg');
+        background-size: cover;
+        background-position: center;
+    }
+
+    .home-cover-content {
+        margin-left: 20vw;
+        margin-right: 20vw;
+        box-sizing: border-box;
+    }
+    .home-cover-content-h1{
+        font-size: 2.5rem;
+        line-height: 3rem;
+        letter-spacing: 0.15px;
+    }
+
+    .home-cover-content-p{
+        font-size: 1.1rem;
+    }
+    .home-cover-content-button {
+        height: 10vh;
+        width: 20vw;
+        font-size: 1rem;
+        margin-top: 2vh;
+    }
+
+    .home-cover {
+        transform: translateY(-20%);
+    }
+
+    .home-bgimage {
+        background-position-y: -9vh;
+    }
+}
+
+@media only screen and (max-height:350px){
+
+    .home-bgimage {
+        background-position-y: -25vh;
+    }
+}
+
+@media only screen and (max-height:350px) and (min-width:600px){
+    
+
+    .home-cover {
+        transform: translateY(-12%);
+    }
+
+    .home-bgimage {
+        background-position-y: -40vh;
+    }
+}
+
+
 /* Configuración para sección de features */
 
 .features-title {
@@ -1033,6 +1102,75 @@ html .vjs-theme-forest .vjs-big-play-button:focus, html
     }
 }
 
+@media only screen and (max-height:780px){
+
+    .features {
+        height: 140vh;
+    }
+    .features-title {
+        height: 25vh;
+    }
+    .features-chars {
+        height: 50vh;
+    }
+
+    .features-video {
+        width: 60%;
+        height: 40vh;
+    }
+}
+
+@media only screen and (max-height:360px){
+    .features {
+        height: 450vh;
+    }
+    .features-title {
+        height: 55vh;
+    }
+    .features-chars {
+        height: 250vh;
+    }
+
+    .features-video {
+        width: 80%;
+        height: 70vh;
+    }
+}
+
+@media only screen and (max-height:360px) and (min-width:600px){
+    .features {
+        height: 450vh;
+    }
+    .features-title {
+        height: 55vh;
+    }
+    .features-chars {
+        height: 250vh;
+    }
+
+    .features-video {
+        width: 80%;
+        height: 70vh;
+    }
+}
+
+@media only screen and (max-height:440px) and (min-width:900px){
+    .features {
+        height: 280vh;
+    }
+    .features-title {
+        height: 50vh;
+    }
+    .features-chars {
+        height: 100vh;
+    }
+
+    .features-video {
+        width: 80%;
+        height: 80vh;
+    }
+}
+
 /* Configuraciones para la sección de contact us */
 
 .contactus-container{
@@ -1364,7 +1502,7 @@ html .vjs-theme-forest .vjs-big-play-button:focus, html
 
     .contactus-container-content-card-form-f input{
         width: 300px;
-        height: 30px;
+        height: 40px;
         padding: 10px;
         background: #F5F5F5;
         border-radius: 39px; 
@@ -1375,7 +1513,7 @@ html .vjs-theme-forest .vjs-big-play-button:focus, html
 
     .contactus-container-content-card-form-f textarea{
         resize: none;
-        height: 130px;
+        height: 140px;
         width: 300px;
         background: #F5F5F5;
         border-radius: 39px; 
@@ -1834,6 +1972,128 @@ html .vjs-theme-forest .vjs-big-play-button:focus, html
         width: 220px;
     }
 }
+
+@media only screen and (max-height:780px){
+    .contactus{
+        height: 200vh;
+    }
+
+    .contactus-container-title-h2{
+        font-size: 2rem;
+        line-height: 1rem;
+    }
+    
+    .contactus-container-title-p{
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
+
+
+    .contactus-container-content{
+        height: 150vh;
+        margin-bottom: 2vh;
+        box-sizing: border-box;
+    }
+
+    .contactus-container-content-card{
+        width: 350px;
+        height: 500px;
+        display: flex;
+    }
+
+    .contactus-container-content-card-form-f input{
+        width: 250px;
+        height: 40px;
+    }
+
+    .contactus-container-content-card-form-f textarea{
+        height: 140px;
+        width: 250px;
+    }
+}
+
+@media only screen and (max-height:360px){
+    .contactus{
+        height: 450vh;
+    }
+
+    .contactus-container-title-h2{
+        font-size: 2rem;
+        line-height: 1rem;
+    }
+    
+    .contactus-container-title-p{
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
+
+
+    .contactus-container-content{
+        height: 350vh;
+        margin-bottom: 2vh;
+        box-sizing: border-box;
+    }
+
+    .contactus-container-content-card{
+        width: 300px;
+        height: 500px;
+        display: flex;
+    }
+
+    .contactus-container-content-card-form-f input{
+        width: 250px;
+        height: 30px;
+    }
+
+    .contactus-container-content-card-form-f textarea{
+        height: 140px;
+        width: 250px;
+    }
+}
+
+/* @media only screen and (max-height:360px) and (min-width:600px){
+
+}*/
+
+@media only screen and (max-height:440px) and (min-width:900px){
+    .contactus{
+        height: 400vh;
+    }
+
+    .contactus-container-title-h2{
+        font-size: 2rem;
+        line-height: 1rem;
+    }
+    
+    .contactus-container-title-p{
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
+
+
+    .contactus-container-content{
+        height: 300vh;
+        margin-bottom: 2vh;
+        box-sizing: border-box;
+    }
+
+    .contactus-container-content-card{
+        width: 300px;
+        height: 500px;
+        display: flex;
+    }
+
+    .contactus-container-content-card-form-f input{
+        width: 250px;
+        height: 30px;
+    }
+
+    .contactus-container-content-card-form-f textarea{
+        height: 140px;
+        width: 250px;
+    }
+} 
+
 
 /* Configuraciones para la sección del footer */
 
