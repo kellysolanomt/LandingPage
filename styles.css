@@ -29,6 +29,7 @@ body {
     width: 100vw;
     height: 100vh;
     background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
 }
 
 .home-bgimage {
@@ -39,6 +40,7 @@ body {
     background-position-x: center;
     background-position-y: -8vh;
     background-repeat: no-repeat;
+    box-sizing: border-box;
 }
 
 .home-navbar {
@@ -49,7 +51,7 @@ body {
     justify-content: space-between;
     box-sizing: border-box;
     z-index: 10;
-    position: relative;
+    /* position: relative; */
 }
 
 .home-navbar-burgermenu, .home-navbar-burgermenu-menu, .home-navbar-closemenu, .home-navbar-closemenu-img{
@@ -71,16 +73,19 @@ body {
     transform: translateY(-15%);
     position: rel;
     z-index: 8;
+    box-sizing: border-box;
 }
 
 .home-navbar-links {
     margin-right: 4vh;
+    box-sizing: border-box;
 }
 
 .home-cover-content {
     text-align: center;
     margin-left: 35vw;
     margin-right: 35vw;
+    box-sizing: border-box;
 }
 
 .home-cover-content-h1 {
@@ -179,10 +184,12 @@ body {
         display: flex;
         align-items: center;
         margin-left: 13vw;
+        box-sizing: border-box;
     }
 
     .home-navbar-icons {
         margin-right: 13vw;
+        box-sizing: border-box;
     }
 }
 
@@ -191,19 +198,23 @@ body {
         display: flex;
         align-items: center;
         margin-left: 9vw;
+        box-sizing: border-box;
     }
 
     .home-cover-content {
         margin-left: 30vw;
         margin-right: 30vw;
+        box-sizing: border-box;
     }
 
     .home-navbar-icons {
         margin-right: 9vw;
+        box-sizing: border-box;
     }
 
     .home-navbar-links {
         margin-right: 2vh;
+        box-sizing: border-box;
     }
 }
 
@@ -212,22 +223,27 @@ body {
         display: flex;
         align-items: center;
         margin-left: 5vw;
+        box-sizing: border-box;
     }
     .home-navbar-icons {
         margin-right: 5vw;
+        box-sizing: border-box;
     }
 
     .home-cover-content {
         margin-left: 20vw;
         margin-right: 20vw;
+        box-sizing: border-box;
     }
 
     .home-navbar{
         height: 12vh;
+        box-sizing: border-box;
     }
 
     .home-navbar-links {
         margin-right: 1vh;
+        box-sizing: border-box;
     }
 
 }
@@ -247,6 +263,7 @@ body {
     .home-cover-content {
         margin-left: 10vw;
         margin-right: 10vw;
+        box-sizing: border-box;
     }
     .home-cover-content-h1{
         font-size: 65px;
@@ -266,6 +283,7 @@ body {
         background-position: center;
         background-size: cover;
         margin-right: 7vw;
+        box-sizing: border-box;
     }
 
     .home-navbar-burgermenu:hover{
@@ -352,6 +370,7 @@ body {
     .home-cover-content {
         margin-left: 10vw;
         margin-right: 10vw;
+        box-sizing: border-box;
     }
     .home-cover-content-h1{
         font-size: 65px;
@@ -371,6 +390,7 @@ body {
         background-position: center;
         background-size: cover;
         margin-right: 7vw;
+        box-sizing: border-box;
     }
 
     .home-navbar-burgermenu:hover{
@@ -620,6 +640,7 @@ html .vjs-theme-forest .vjs-big-play-button:focus, html
         height: 140vh;
         background-color: rgb(255, 255, 255);
         padding-top: 5vh;
+        box-sizing: border-box;
     }
 
     .features-chars {
@@ -631,6 +652,7 @@ html .vjs-theme-forest .vjs-big-play-button:focus, html
         margin-left: auto;
         margin-right: auto;
         justify-content: center;
+        box-sizing: border-box;
     }
 
     .features-grid {
@@ -640,6 +662,7 @@ html .vjs-theme-forest .vjs-big-play-button:focus, html
         gap: 0rem 3rem 0rem 0rem;
         width: 55rem;
         height: 20rem;
+        box-sizing: border-box;
     }
     
     .features-video {
@@ -651,6 +674,7 @@ html .vjs-theme-forest .vjs-big-play-button:focus, html
         margin-right: auto;
         box-shadow: 17px 18px 101px -13px rgba(0, 0, 0, 0.62);
         border-radius: 44.81px;
+        box-sizing: border-box;
     }
 }
 
@@ -661,6 +685,7 @@ html .vjs-theme-forest .vjs-big-play-button:focus, html
         height: 115vh;
         background-color: rgb(255, 255, 255);
         padding-top: 5vh;
+        box-sizing: border-box;
     }
 
     .features-title {
@@ -676,6 +701,7 @@ html .vjs-theme-forest .vjs-big-play-button:focus, html
         margin-left: auto;
         margin-right: auto;
         justify-content: center;
+        box-sizing: border-box;
     }
 
     .features-grid {
@@ -685,6 +711,7 @@ html .vjs-theme-forest .vjs-big-play-button:focus, html
         /* gap: 0rem 5rem 0rem 0rem; */
         width: 55rem;
         height: 20rem;
+        box-sizing: border-box;
     }
     
     
@@ -696,6 +723,7 @@ html .vjs-theme-forest .vjs-big-play-button:focus, html
         margin-right: auto;
         box-shadow: 17px 18px 101px -13px rgba(0, 0, 0, 0.62);
         border-radius: 44.81px;
+        box-sizing: border-box;
     }
 }
 
@@ -706,6 +734,7 @@ html .vjs-theme-forest .vjs-big-play-button:focus, html
         height: 115vh;
         background-color: rgb(255, 255, 255);
         padding-top: 5vh;
+        box-sizing: border-box;
     }
 
     .features-chars {
@@ -717,6 +746,7 @@ html .vjs-theme-forest .vjs-big-play-button:focus, html
         margin-left: auto;
         margin-right: auto;
         justify-content: center;
+        box-sizing: border-box;
     }
 
     .features-grid {
@@ -725,6 +755,7 @@ html .vjs-theme-forest .vjs-big-play-button:focus, html
         grid-template-rows: 0.7fr 0.7fr 1fr;
         width: 45rem;
         height: 20rem;
+        box-sizing: border-box;
     }
     
     
@@ -736,6 +767,7 @@ html .vjs-theme-forest .vjs-big-play-button:focus, html
         margin-right: auto;
         box-shadow: 17px 18px 101px -13px rgba(0, 0, 0, 0.62);
         border-radius: 44.81px;
+        box-sizing: border-box;
     }
 }
 
@@ -745,6 +777,7 @@ html .vjs-theme-forest .vjs-big-play-button:focus, html
         height: 180vh;
         background-color: rgb(255, 255, 255);
         padding-top: 5vh;
+        box-sizing: border-box;
     }
     
 
@@ -756,6 +789,7 @@ html .vjs-theme-forest .vjs-big-play-button:focus, html
         margin-bottom: 2vh;
         margin-left: auto;
         margin-right: auto;
+        box-sizing: border-box;
     }
 
     .features-grid {
@@ -765,6 +799,7 @@ html .vjs-theme-forest .vjs-big-play-button:focus, html
         grid-template-columns: 1fr; 
         grid-template-rows: 0.8fr 0.8fr 1.4fr 0.8fr 0.8fr 1.4fr 0.8fr 0.8fr 1.4fr; 
         gap: 0px 0px; 
+        box-sizing: border-box;
       }
       .features-chars-1{grid-area: 1 / 1 / 4 / 2;}
       .features-chars-2{grid-area: 4 / 1 / 7 / 2;}
@@ -774,18 +809,21 @@ html .vjs-theme-forest .vjs-big-play-button:focus, html
       .features-chars-1-desc{
         grid-area: 3 / 1 / 4 / 2;
         margin-bottom: 5rem;
+        box-sizing: border-box;
     }
       .features-chars-2-icon{grid-area: 4 / 1 / 5 / 2;}
       .features-chars-2-title{grid-area: 5 / 1 / 6 / 2;}
       .features-chars-2-desc{
         grid-area: 6 / 1 / 7 / 2;
         margin-bottom: 5rem;
+        box-sizing: border-box;
     }
       .features-chars-3-icon{grid-area: 7 / 1 / 8 / 2;}
       .features-chars-3-title{grid-area: 8 / 1 / 9 / 2;}
       .features-chars-3-desc{
         grid-area: 9 / 1 / 10 / 2;
         margin-bottom: 5rem;
+        box-sizing: border-box;
     }
 
     .features-video {
@@ -796,10 +834,87 @@ html .vjs-theme-forest .vjs-big-play-button:focus, html
         margin-right: auto;
         box-shadow: 17px 18px 101px -13px rgba(0, 0, 0, 0.62);
         border-radius: 44.81px;
+        box-sizing: border-box;
     }
 
 }
     
+@media only screen and (max-width: 599px){
+    .features {
+        width: 100%;
+        height: 170vh;
+        background-color: rgb(255, 255, 255);
+        padding-top: 5vh;
+        box-sizing: border-box;
+    }
+
+    .features-title {
+        width: 90%;
+        height: 25vh;
+        margin-left: auto;
+        margin-right: auto;
+        box-sizing: border-box;
+    }
+
+    .features-chars {
+        display: flex;
+        width: 20rem;
+        height: 100vh;
+        margin-top: 5vh;
+        margin-bottom: 2vh;
+        margin-left: auto;
+        margin-right: auto;
+        box-sizing: border-box;
+    }
+
+    .features-grid {
+        display: grid; 
+        width: 70rem;
+        height: 40rem;
+        grid-template-columns: 1fr; 
+        grid-template-rows: 0.8fr 0.8fr 1.4fr 0.8fr 0.8fr 1.4fr 0.8fr 0.8fr 1.4fr; 
+        gap: 0px 0px; 
+        box-sizing: border-box;
+      }
+      .features-chars-1{grid-area: 1 / 1 / 4 / 2;}
+      .features-chars-2{grid-area: 4 / 1 / 7 / 2;}
+      .features-chars-3{grid-area: 7 / 1 / 10 / 2;}
+      .features-chars-1-icon{grid-area: 1 / 1 / 2 / 2;}
+      .features-chars-1-title{grid-area: 2 / 1 / 3 / 2;}
+      .features-chars-1-desc{
+        grid-area: 3 / 1 / 4 / 2;
+        margin-bottom: 5rem;
+        box-sizing: border-box;
+    }
+      .features-chars-2-icon{grid-area: 4 / 1 / 5 / 2;}
+      .features-chars-2-title{grid-area: 5 / 1 / 6 / 2;}
+      .features-chars-2-desc{
+        grid-area: 6 / 1 / 7 / 2;
+        margin-bottom: 5rem;
+        box-sizing: border-box;
+    }
+      .features-chars-3-icon{grid-area: 7 / 1 / 8 / 2;}
+      .features-chars-3-title{grid-area: 8 / 1 / 9 / 2;}
+      .features-chars-3-desc{
+        grid-area: 9 / 1 / 10 / 2;
+        margin-bottom: 5rem;
+        box-sizing: border-box;
+    }
+
+    .features-video {
+        width: 90vw;
+        height: 20vh;
+        margin-bottom: 5vh;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 17px 18px 101px -13px rgba(0, 0, 0, 0.62);
+        border-radius: 30px;
+        box-sizing: border-box;
+    }
+    .video-js .vjs-tech {
+        border-radius: 30px;
+    }
+}
 
 
 /* Configuraciones para la sección de contact us */
@@ -1047,6 +1162,7 @@ html .vjs-theme-forest .vjs-big-play-button:focus, html
         flex-direction: column;
         justify-content: center;
         border: 1px #DDDDDD solid;
+        box-sizing: border-box;
     }
 
     .contactus-container-content-card-form-f input{
@@ -1057,6 +1173,7 @@ html .vjs-theme-forest .vjs-big-play-button:focus, html
         border-radius: 39px; 
         overflow: hidden;
         border: 1px #E8E8E8 solid;
+        box-sizing: border-box;
     }
 
     .contactus-container-content-card-form-f textarea{
@@ -1069,10 +1186,12 @@ html .vjs-theme-forest .vjs-big-play-button:focus, html
         border: 1px #E8E8E8 solid;
         border-radius: 0;
         padding: 10px;
+        box-sizing: border-box;
     }
 
     .contactus-container-content-infomap{
         margin-right: 10vw;
+        box-sizing: border-box;
     }
 
     .contactus-container-content-infomap-map iframe{
@@ -1087,6 +1206,7 @@ html .vjs-theme-forest .vjs-big-play-button:focus, html
         gap: 0px 0px;
         height: 562px;
         width: 50rem;
+        box-sizing: border-box;
     }
 }
 
@@ -1121,6 +1241,7 @@ html .vjs-theme-forest .vjs-big-play-button:focus, html
         flex-direction: column;
         justify-content: center;
         border: 1px #DDDDDD solid;
+        box-sizing: border-box;
     }
 
     .contactus-container-content-card-form-f input{
@@ -1131,6 +1252,7 @@ html .vjs-theme-forest .vjs-big-play-button:focus, html
         border-radius: 39px; 
         overflow: hidden;
         border: 1px #E8E8E8 solid;
+        box-sizing: border-box;
     }
 
     .contactus-container-content-card-form-f textarea{
@@ -1143,11 +1265,12 @@ html .vjs-theme-forest .vjs-big-play-button:focus, html
         border: 1px #E8E8E8 solid;
         border-radius: 0;
         padding: 10px;
+        box-sizing: border-box;
     }
 
     .contactus-container-content-infomap{
         margin-top:5vh;
-
+        box-sizing: border-box;
     }
 
     .contactus-container-content-infomap-map iframe{
@@ -1162,6 +1285,7 @@ html .vjs-theme-forest .vjs-big-play-button:focus, html
         gap: 0px 0px;
         height: 562px;
         width: 50rem;
+        box-sizing: border-box;
     }
 }
 
@@ -1382,6 +1506,155 @@ html .vjs-theme-forest .vjs-big-play-button:focus, html
 
 }
 
+@media only screen and (max-width: 599px){
+    .contactus{
+        width: 100vw;
+        height: 180vh;
+    }
+
+    .contactus-container{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contactus-container-title{
+        width: 80%;
+        height: 50vh;
+        margin-left: auto;
+        margin-right: auto;
+        box-sizing: border-box;
+    }
+
+    .contactus-container-content{
+        width: 80%;
+        height: 140vh;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contactus-container-content-card{
+        width: 280px;
+        height: 700px;
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border: 1px #DDDDDD solid;
+    }
+
+    .contactus-container-content-card-form-f input{
+        width: 240px;
+        height: 40px;
+        padding: 10px;
+        background: #F5F5F5;
+        border-radius: 39px; 
+        overflow: hidden;
+        border: 1px #E8E8E8 solid;
+    }
+
+    .contactus-container-content-card-form-f textarea{
+        resize: none;
+        height: 140px;
+        width: 240px;
+        background: #F5F5F5;
+        border-radius: 39px; 
+        overflow: hidden;
+        border: 1px #E8E8E8 solid;
+        border-radius: 0;
+        padding: 10px;
+    }
+
+    .contactus-container-content-infomap{
+        margin-top:5vh;
+        margin-bottom: 5vh;
+        width: 100%;
+        height: 800px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .contactus-container-content-infomap-grid{
+        display: grid;
+        grid-template-columns: 0.2fr 1fr; 
+        grid-template-rows: 0.5fr repeat(3, 0.7fr) 5fr; 
+        gap: 0px 0px;
+        height: 600px;
+        width: 30rem;
+    }
+
+    .contactus-container-content-infomap-icons { 
+        grid-area: 1 / 1 / 2 / 3; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 5vh;
+    }
+    .contactus-container-content-infomap-add-1 { 
+        grid-area: 2 / 1 / 3 / 3; 
+        display: flex;
+    }
+    .contactus-container-content-infomap-add-1-icon { 
+        grid-area: 2 / 1 / 3 / 2;
+        display: flex;
+        align-items: center;
+        justify-content: start; 
+    }
+
+    .contactus-container-content-infomap-grid-p{
+        text-align: start;
+    }
+    .contactus-container-content-infomap-add-1-add { 
+        grid-area: 2 / 2 / 3 / 3; 
+        display: flex;
+        align-items: center;
+        justify-content: start; 
+    }
+    .contactus-container-content-infomap-add-2 { grid-area: 3 / 1 / 4 / 3; }
+    .contactus-container-content-infomap-add-2-icon { 
+        grid-area: 3 / 1 / 4 / 2; 
+        display: flex;
+        align-items: center;
+        justify-content: start; 
+    }
+    .contactus-container-content-infomap-add-2-phone { 
+        grid-area: 3 / 2 / 4 / 3; 
+        display: flex;
+        align-items: center;
+        justify-content: start; 
+    }
+    .contactus-container-content-infomap-add-3 { grid-area: 4 / 1 / 5 / 3; }
+    .contactus-container-content-infomap-add-3-icon { 
+        grid-area: 4 / 1 / 5 / 2; 
+        display: flex;
+        align-items: center;
+        justify-content: start; 
+    }
+    .contactus-container-content-infomap-add-3-email { 
+        grid-area: 4 / 2 / 5 / 3; 
+        display: flex;
+        align-items: center;
+        justify-content: start; 
+    }
+    .contactus-container-content-infomap-map { 
+        grid-area: 5 / 1 / 6 / 3; 
+        margin-top: 2vh;
+    }
+
+    .contactus-container-content-infomap-map iframe{
+        width: 90%;
+        height: 90%;
+    }
+}
 
 /* Configuraciones para la sección del footer */
 
@@ -1407,6 +1680,7 @@ html .vjs-theme-forest .vjs-big-play-button:focus, html
     width: 40%;
     height: 40%;
     margin-left: 6rem;
+    box-sizing: border-box;
 }
 
 .footer-content-nav-1 { grid-area: 1 / 1 / 3; }
@@ -1471,6 +1745,7 @@ html .vjs-theme-forest .vjs-big-play-button:focus, html
     grid-template-columns: 0.3fr 1.7fr; 
     grid-template-rows: 1fr 1fr 1fr; 
     gap: 0px 0px; 
+    box-sizing: border-box;
 }
 
 .footer-content-icons-di { grid-area: 1 / 1 / 2; }
@@ -1623,6 +1898,43 @@ html .vjs-theme-forest .vjs-big-play-button:focus, html
     }
 
     
+}
+
+@media only screen and (max-width: 599px){
+    .footer{
+        height: 770px;
+    }
+
+    .footer-content{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-content-nav{
+        grid-template-columns: 0.6fr 0.8fr 0.8fr; 
+        width: 75%;
+        height: 40%;
+        margin: 0;
+    }
+
+    .footer-content-icons{
+        height: 20%;
+        width: 50%;
+        margin: 0;
+        display: grid; 
+        grid-template-columns: 0.5fr 1.5fr; 
+        grid-template-rows: 1fr 1fr 1fr; 
+        gap: 0px 0px; 
+        margin-bottom: 5vh;
+    }
+
+    .footer-content-icons-socialnets{
+        justify-content: center;
+        margin-top: 3vh;
+    }
+
 }
 
 
