@@ -5,14 +5,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
     if (burgerMenu && closeMenu && menuWindow) {
         const show = () => {
-            menuWindow.style.display = 'flex';
+            // menuWindow.style.display = 'flex';
             menuWindow.style.top = '0';
             console.log('Se abrió');
         }
 
         const close = () => {
             menuWindow.style.top = '-100%';
-            menuWindow.style.display = 'none';
+            console.log('Se cerró');
         }
 
         burgerMenu.addEventListener('click', show);
